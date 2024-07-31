@@ -8,6 +8,7 @@ const RelatedAppChecker = () => {
       navigator
         .getInstalledRelatedApps()
         .then((apps) => {
+          console.log("sdfdfsd", apps);
           setRelatedApps(apps);
         })
         .catch((error) => {
