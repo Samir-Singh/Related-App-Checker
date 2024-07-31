@@ -30,7 +30,7 @@
     },
     {
       "platform": "webapp",
-      "url": "https://delightful-sawine-c1105f.netlify.app/"
+      "url": "https://delightful-sawine-c1105f.netlify.app/%PUBLIC_URL%/manifest.json"
     }
   ],
   "prefer_related_applications": true
