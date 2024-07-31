@@ -6,6 +6,11 @@ const RelatedAppChecker = () => {
 
   useEffect(() => {
     if ("getInstalledRelatedApps" in navigator) {
+      console.log("sdfdds", {
+        one: navigator,
+        two: navigator.getInstalledRelatedApps(),
+      });
+
       navigator
         .getInstalledRelatedApps()
         .then((apps) => {
@@ -22,6 +27,7 @@ const RelatedAppChecker = () => {
     <div>
       <h1>Installed Related Apps</h1>
       {<p>{"apps -> " + JSON.stringify(apps)}</p>}
+      {navigator?.userAgentData?.platform}
       {relatedApps.length > 0 ? (
         <ul>
           {relatedApps.map((app, index) => (
