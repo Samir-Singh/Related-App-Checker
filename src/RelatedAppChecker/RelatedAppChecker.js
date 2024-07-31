@@ -27,7 +27,7 @@ const RelatedAppChecker = () => {
     <div>
       <h1>Installed Related Apps</h1>
       {<p>{"apps -> " + JSON.stringify(apps)}</p>}
-      {navigator?.userAgentData?.platform}
+      {JSON.stringify(navigator)}
       {relatedApps.length > 0 ? (
         <ul>
           {relatedApps.map((app, index) => (
