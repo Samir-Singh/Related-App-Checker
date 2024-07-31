@@ -21,5 +21,17 @@
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "background_color": "#ffffff",
+  "related_applications": [
+    {
+      "platform": "play",
+      "id": "com.google.android.youtube",
+      "url": "https://play.google.com/store/search?q=youtube&c=apps&hl=en-IN"
+    },
+    {
+      "platform": "webapp",
+      "url": "http://localhost:3000/"
+    }
+  ],
+  "prefer_related_applications": true
 }
