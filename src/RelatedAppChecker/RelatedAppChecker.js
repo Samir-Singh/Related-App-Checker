@@ -17,6 +17,7 @@ const RelatedAppChecker = () => {
         });
     }
   }, []);
+
   return (
     <div>
       <h1>Installed Related Apps</h1>
